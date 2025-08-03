@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(64,78,92);
+    padding: 5vmin 15vmin 5vmin 15vmin;
+}
+section {
+    height: 90vmin;
+    background-color:rgb(207,18,89) ;
+    padding-top: 35px ;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0px 0px 32px rgb(0, 0, 0);
+}
+
+#bigbox {
+    margin: 3% 24% 3% 30.2%;
+    width: 47%;
+    height: 62%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box {
+    height: 31%;
+    width: 25%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.626);
+    background-color: rgb(221, 117, 150);
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 128px;
+    color: white;
+}
+button {
+    height: 8%;
+    width: 10%;
+    font-size: 3vmin;
+    font-family: serif;
+    border-radius: 4px;
+    background-color: rgb(183,195,243);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.594);
+    border: 0px;
+}
+#winlogic {
+    margin: 1% 0%;
+    padding: 1% 25% 3% 25%;
+    background-color:rgb(64, 78, 92);
+    border-left: 10px solid rgb(207,18,89);
+    border-right: 10px solid rgb(207,18,89);
+    width: 100%;
+    height: 4%;
+    font-size:32px;
+    color: white;
+    visibility: hidden;
+}
