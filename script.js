@@ -3,7 +3,7 @@ let true0=true;
 const winner=document.getElementById("winlogic");
 const reset=document.getElementById("resetbtn");
 reset.addEventListener("click", () => {
-    boxes.forEach(box => box.textContent = "");
+    boxes.forEach(box => box.innerHTML = "");
     winner.style.visibility = "hidden";
     true0 = true;
     gameOver = false;
