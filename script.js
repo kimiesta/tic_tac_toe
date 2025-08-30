@@ -3,12 +3,10 @@ let true0=true;
 const winner=document.getElementById("winlogic");
 const reset=document.getElementById("resetbtn");
 reset.addEventListener("click", () => {
-    reset.onclick = () => {
     boxes.forEach(box => box.textContent = "");
     winner.style.visibility = "hidden";
     true0 = true;
     gameOver = false;
-};
 });
 let gameover=false;
 const winpattern=[
@@ -23,7 +21,7 @@ boxes.forEach((box) => {
                 if (box.innerHTML=="o"|| box.innerHTML=="x") {
                     return;
                 }
-                else if (true0) {
+                else if (true0==true) {
                     box.innerHTML=`o`;
                     true0=false;
                     box.dis
