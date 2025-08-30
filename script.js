@@ -6,7 +6,7 @@ reset.addEventListener("click", () => {
     boxes.forEach(box => box.innerHTML = "");
     winner.style.visibility = "hidden";
     true0 = true;
-    gameOver = false;
+    gameover = false;
 });
 let gameover=false;
 const winpattern=[
